@@ -1,3 +1,8 @@
 <p>
-  Component 1: servers done as a selector
+  Component 1: servers done as a selector<br>
+  The {{'Server'}} with ID {{ serverId }} is currently {{ getServerStatus() }}.
+  This is an example of String interpolation.<br>
+  <button class="btn btn-primary" [disabled]="!allowNewServer" (click)="onCreateServer('SerV5tHttp4200')">Add Server</button>
+  {{ serverCreationStatus }}<br>
+  This is an example of property binding and event binding.<br>
 </p>
