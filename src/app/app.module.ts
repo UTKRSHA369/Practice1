@@ -8,6 +8,7 @@ import { ServersComponent } from './servers/servers.component';
 import { S2Component } from './s2/s2.component';
 import { S3Component } from './s3/s3.component';
 import { ServerComponent } from './servers/server/server.component';
+import { Assignment3Component } from './assignment3/assignment3.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ServerComponent } from './servers/server/server.component';
     ServersComponent,
     S2Component,
     S3Component,
-    ServerComponent
+    ServerComponent,
+    Assignment3Component
   ],
   imports: [
     BrowserModule,
