@@ -1,5 +1,14 @@
-<p>
-  Component 2: s2 done as a Attribute.<br>
-  In s2.component.ts file I had put square brackets against the selector name.<br>
-  And in the s2.component.html instead of giving it as a selector I have given as an attribute in the div<br>
-</p>
+<div>
+  (Component 2: s2 done as a Attribute.)<br>
+  (In s2.component.ts file I had put square brackets against the selector name.)<br>
+  (And in the s2.component.html instead of giving it as a selector I have given as an attribute in the div.)<br>
+  <h2>Assignment 2: Username</h2>
+  <label>Enter Username:</label>
+  <input type="text" class="form-control"
+  [(ngModel)]="userName">
+  <button class="btn btn-primary" [disabled]="isUserNull()">Add User</button>
+  Hello {{ userName }}. Welcome to this channel.<br>
+  (Two way data binding has been used for the username field.)<br>
+  (Property binding is used on the button.)<br>
+  (String interpolation is used on the paragraph.)
+</div>
