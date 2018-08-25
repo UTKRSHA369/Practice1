@@ -1,7 +1,9 @@
 <div>
   <button class="btn btn-info" (click)=saveLog()>Display Logs</button><br>
   Welcome to this channel.
-  <div *ngFor="let log of Logs">
+  <div *ngFor="let log of Logs; let i = index"
+  [ngStyle]="{backgroundColor: i % 2 ? 'green' : 'transperant' }"
+  [ngClass]="{ 'white-text': i % 2 }">
     {{log}}
   </div>
 </div>

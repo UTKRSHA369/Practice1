@@ -14,6 +14,6 @@ export class Assignment3Component implements OnInit {
   ngOnInit() {
   }
   saveLog(){
-    this.Logs.push(Date.now());
+    this.Logs.push(new Date());
   }
 }
